@@ -1,0 +1,20 @@
+{
+    "name": "simpleHTTPServer",
+    "version": "1.0.0",
+    "description": "a simple http server",
+    "main": "startApp.js",
+    "scripts": {
+        "start": "node startApp.js"
+    },
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "author": "Gene Hazan <ghazan@costco.com>",
+    "license": "MIT",
+    "readme": "README.md",
+    "dependencies": {
+        "express": "^4.13.4",
+        "request": "^2.69.0"
+    }
+}
