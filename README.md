@@ -11,19 +11,27 @@ To build the ember app (in ember_app directory):
      cd ember_app
      npm install && bower install && ember b
   ```
-
+  
 To build the docker image:
 
-  ```docker build --force-rm=true -t costco/myApp:0.0.1 .```
+  ```
+     docker build --force-rm=true -t costco/myApp:0.0.1 .
+  ```
   
 To run the docker image as a docker container:
 
-  ```docker run -d -p 3000:3000 costco/myApp:0.0.1 --name="myApp" ```
-   
+  ```
+     docker run -d -p 3000:3000 costco/myApp:0.0.1 --name="myApp"
+  ```
+  
 To confirm that the ember app is being served up by node.js:
 
-  ```http://localhost:3000/```
+  ```
+     http://localhost:3000/
+  ```
 
 To stop the docker container:
 
-  ```Docker kill myApp```
+  ```
+     Docker kill myApp
+  ```
